@@ -11,6 +11,7 @@ import { BackToTopButton } from "@/components/back-to-top"
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <div id="top" className="absolute" />
       <Navbar />
       <HeroSection />
       <StorySection />
