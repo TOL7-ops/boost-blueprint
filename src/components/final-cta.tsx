@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge"
 
 export function FinalCTA() {
   return (
-    <section className="py-20 lg:py-32" id="pricing">
+    <section className="py-20 lg:py-32 scroll-mt-20 md:scroll-mt-24" id="pricing">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           {/* Section Header */}

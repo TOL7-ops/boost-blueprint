@@ -6,7 +6,7 @@ import { Separator } from "@/components/ui/separator"
 
 export function StorySection() {
   return (
-    <section className="py-20 lg:py-32 bg-muted/30">
+    <section className="py-20 lg:py-32 bg-muted/30 scroll-mt-20" id="how-it-works">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}

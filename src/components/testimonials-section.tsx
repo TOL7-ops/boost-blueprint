@@ -246,7 +246,7 @@ function AnimatedRow({ testimonials, direction }: AnimatedRowProps) {
 
 export function TestimonialsSection() {
   return (
-    <section className="py-20 lg:py-32 overflow-hidden" id="testimonials">
+    <section className="py-20 lg:py-32 overflow-hidden scroll-mt-20" id="testimonials">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 mb-16">
         <div className="text-center">
           <Badge variant="outline" className="mb-4">

@@ -6,6 +6,7 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { TargetAudience } from "@/components/target-audience"
 import { FinalCTA } from "@/components/final-cta"
 import { Footer } from "@/components/footer"
+import { BackToTopButton } from "@/components/back-to-top"
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <TargetAudience />
       <FinalCTA />
       <Footer />
+      <BackToTopButton />
     </main>
   )
 }
