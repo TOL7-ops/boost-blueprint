@@ -24,9 +24,12 @@ export default function ThankYouPage() {
         </div>
         <p className="text-sm text-muted-foreground">
           Need help? Contact us at{' '}
-          <Link href="mailto:support@boostblueprint.com" className="underline">
-            support@boostblueprint.com
-          </Link>
+          <a 
+            href="mailto:boostblueprints@gmail.com" 
+            className="text-primary underline hover:text-primary/80 transition-colors"
+          >
+            boostblueprints@gmail.com
+          </a>
         </p>
       </div>
     </main>
