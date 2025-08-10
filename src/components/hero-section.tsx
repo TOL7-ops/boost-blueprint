@@ -103,9 +103,14 @@ export function HeroSection() {
           </p>
 
           {/* CTA Button */}
-          <Button asChild size="lg" className="text-lg px-8 py-6 h-auto font-semibold">
-            <a href="#pricing">Try It Out</a>
-          </Button>
+          <a
+            href="https://merchant.heleket.com/pay/example"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-primary text-primary-foreground text-lg px-8 py-6 h-auto font-semibold rounded-lg hover:bg-primary/90 transition-colors"
+          >
+            Try It Out
+          </a>
         </div>
       </div>
     </section>

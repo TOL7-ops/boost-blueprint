@@ -44,7 +44,7 @@ export function FinalCTA() {
 
               {/* CTA Button */}
               <a
-                href="https://merchant.heleket.com/pay/YOUR_PRODUCT_ID"
+                href="https://merchant.heleket.com/pay/example"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-primary text-primary-foreground text-lg px-8 py-6 h-auto text-base font-semibold rounded-lg hover:bg-primary/90 transition-colors"
