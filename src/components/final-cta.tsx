@@ -43,9 +43,14 @@ export function FinalCTA() {
               </div>
 
               {/* CTA Button */}
-              <Button size="lg" className="text-lg px-8 py-6 h-auto text-base">
+              <a
+                href="https://merchant.heleket.com/pay/YOUR_PRODUCT_ID"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-primary text-primary-foreground text-lg px-8 py-6 h-auto text-base font-semibold rounded-lg hover:bg-primary/90 transition-colors"
+              >
                 👉 Get the Boost Blueprint – $20
-              </Button>
+              </a>
 
               {/* Trust Indicators */}
               <div className="mt-8 flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-sm text-muted-foreground">

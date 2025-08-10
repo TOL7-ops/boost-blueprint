@@ -33,48 +33,45 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Contact Us */}
           <div>
-            <h3 className="font-semibold mb-4">Product</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Features
-                </Link>
-              </li>
-              <li>
-                <Link href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Support
-                </Link>
-              </li>
-            </ul>
+            <h3 className="font-semibold mb-4">Contact Us</h3>
+            <div className="space-y-2 text-sm">
+              <div className="flex items-center space-x-2">
+                <span>📧</span>
+                <a 
+                  href="mailto:boostblueprints@gmail.com"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  boostblueprints@gmail.com
+                </a>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span>🌐</span>
+                <a 
+                  href="https://boost-blueprint.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  boost-blueprint.vercel.app
+                </a>
+              </div>
+            </div>
           </div>
 
-          {/* Company */}
-          <div>
-            <h3 className="font-semibold mb-4">Company</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Contact
-                </Link>
-              </li>
-            </ul>
+          {/* Buy Now Button */}
+          <div className="flex flex-col items-start md:items-end space-y-4">
+            <h3 className="font-semibold">Get Started</h3>
+            <a
+              href="https://merchant.heleket.com/pay/YOUR_PRODUCT_ID"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Buy Boost Blueprint Starter Kit"
+              className="bg-primary text-primary-foreground px-6 py-3 text-lg font-semibold rounded-lg hover:bg-primary/90 transition-colors"
+            >
+              Buy Now
+            </a>
           </div>
         </div>
 

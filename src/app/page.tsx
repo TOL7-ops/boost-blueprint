@@ -5,13 +5,13 @@ import { FeaturesSection } from "@/components/features-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { TargetAudience } from "@/components/target-audience"
 import { FinalCTA } from "@/components/final-cta"
+import { ProductPreview } from "@/components/product-preview"
 import { Footer } from "@/components/footer"
-import { BackToTopButton } from "@/components/back-to-top"
+import { StickyBuyButton } from "@/components/sticky-buy-button"
 
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <div id="top" className="absolute" />
       <Navbar />
       <HeroSection />
       <StorySection />
@@ -19,8 +19,9 @@ export default function Home() {
       <TestimonialsSection />
       <TargetAudience />
       <FinalCTA />
+      <ProductPreview />
       <Footer />
-      <BackToTopButton />
+      <StickyBuyButton />
     </main>
   )
 }
